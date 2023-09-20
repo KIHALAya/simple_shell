@@ -77,14 +77,8 @@ The shell is compiled this way: `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 
 4. Simple shell 0.4 : Implement the exit built-in, that exits the shell 
 5. Simple shell 1.0 : Implement the env built-in, that prints the current environment
 
-### How to add Author file
-Bash script for generating the list of authors in git repo
-
-#!/bin/sh
-
-git shortlog -se \
-  | perl -spe 's/^\s+\d+\s+//' \
-  | sed -e '/^CommitSyncScript.*$/d' \
-  > AUTHORS
-
-echo "env" | ./hsh
+### Copyright - Plagiarism
+- You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
+- You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
+- You are not allowed to publish any content of this project.
+- Any form of plagiarism is strictly forbidden and will result in removal from the program
