@@ -34,10 +34,4 @@ int handle_path(char *const args[]);
 char *_getenv(const char *name);
 void print_env(void);
 
-/*exit*/
-int custom_exit(char **args);
-void my_exit(int status);
-void signals_handler(int signum);
-
-
 #endif
